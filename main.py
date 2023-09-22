@@ -12,7 +12,7 @@ bot = commands.Bot(command_prefix="!", intents=discord.Intents.all())
 #os.chdir('โฟลเดอร์รูป')
 def main():
     """Bot"""
-    token = 'MTE1MjYwMDc2NjA1ODYxMDc1OA.G5ErJX.8CAnSf_WdVOwRrnCoBrGPX6OKLyXfHk8azi0NY' #สำหรับรันบอท
+    token = '' #สำหรับรันบอท
 
     @bot.event #ดูสถานะ
     async def on_ready():
